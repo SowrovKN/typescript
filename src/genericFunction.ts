@@ -11,3 +11,9 @@ const genericFunciton = <T>(value:T) => [value]
 genericFunciton("str")
 genericFunciton(12)
 genericFunciton(false)
+
+const adding = <X,Y> (param1:X, param2:Y) => {
+    return [param1, param2]
+}
+
+console.log(adding(1223,"ads"))
